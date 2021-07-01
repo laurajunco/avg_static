@@ -246,7 +246,7 @@
   const selectNav = (next) => {
 
     const headerLinks = document.querySelectorAll(".menu .menu-item a")
-    const href = next.url.href
+    const href = next.url.path
 
     headerLinks.forEach(link => {
       if(link.getAttribute("href") === href) {
