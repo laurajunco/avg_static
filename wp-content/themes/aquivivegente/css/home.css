@@ -1,0 +1,139 @@
+body.home {
+    width: 100%;
+    margin: 0;
+    font-family: "Arimo", sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 1.45;
+    margin-bottom: 80px;
+}
+
+.home .bg-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.home p, 
+.home h3.entrar, 
+.home h6 {
+  width: 780px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home h3.entrar {
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 5vh;
+  font-size: 40px;
+}
+
+.home a,
+.home a:visited,
+.home a:hover,
+.home a:visited {
+  color: black;
+}
+
+h3.entrar a {
+  text-decoration: underline;
+}
+
+.home h1 {
+  text-align: center;
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.home h6 {
+  font-weight: normal;
+}
+
+.home .hero {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .home h1 {
+    font-size: 6vw;
+  }
+
+  body.home {
+    font-size: 32px;
+    line-height: 1.3;
+    margin-bottom: 80px;
+  }
+
+  .home h3.entrar {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 550px) {
+  .home p, .home h3.entrar, .home h6 {
+    max-width: 85%;
+  }
+
+  .home p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .home h1 {
+    font-size: 38px;
+  }
+
+  body.home {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 80px;
+  }
+
+  .home h3.entrar a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 330px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  body.home {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 80px;
+  }
+
+  .home h3.entrar {
+    font-size: 20px;
+  }
+}
+@font-face {
+  font-family: "Sora";
+  src: url("/wp-content/themes/aquivivegente/fonts/Sora/Sora-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Arimo";
+  src: url("/wp-content/themes/aquivivegente/fonts/Arimo/Arimo-Regular.ttf") format("truetype");
+  font-weight: normal;
+}

@@ -1,0 +1,559 @@
+
+@media (min-width: 1501px) {
+  .content-container .card-container p, .objetos .card-container .text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .objetos .card.horizontal img {
+    max-width: 40%;
+  }
+
+  .modal-img-content img {
+    max-width: 85vw;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .cards {
+    max-width: 85%;
+    margin-top: 3vh;
+  }
+
+  .grupo .group-title {
+    padding: 25px 25px 50px 25px;
+  }
+
+  .blog h1,
+  .single h1 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .la-gente-galeria .grupo {
+    padding: 25px 25px 80px 25px;
+  }
+
+  .group-title h3 {
+    font-size: 30px;
+  }
+
+  .content-container p {
+    font-size: 18px;
+  }
+
+  .sidebar p {
+    font-size: 14px;
+  }
+
+  .objetos .card.horizontal {
+    flex-direction: column;
+  }
+
+  .objetos .card.horizontal img {
+    max-width: 100%;
+  }
+  
+  .card-content p {
+    max-width: 95%;
+  }
+
+  .objetos-container {
+    padding: 35px 35px 0 35px;
+  }
+
+  .objetos-container .card-container img {
+    max-height: 250px;
+    object-position: top center;
+    max-width: 100%;
+  }
+
+  .objetos .card-container:nth-child(2) {
+    margin-bottom: 7vh;
+    margin-top: 0;
+  }
+
+  .objetos .card-container:nth-child(4) {
+    margin-top: -3vh;
+  }
+
+  .objetos .card-container:nth-child(8) {
+    margin-top: 0;
+  }
+
+  .objetos .card-container:nth-child(4) img, 
+  .objetos .card-container:nth-child(5) img,
+  .objetos .card-container:nth-child(13) img,
+  .objetos .card-container:nth-child(9) img,
+  .objetos .card-container:nth-child(8) img  {
+    object-position: center center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-navigation .menu {
+    left: 2.5%
+  }
+
+  .content-container .card-container p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .la-gente-galeria .grupo {
+    padding: 35px 35px 70px 35px;
+  }
+
+  .group-title h3 {
+    font-size: 30px;
+  }
+
+  .card.telas {
+    flex-direction: column;
+  }
+
+  .card.telas img {
+    max-width: 100%;
+  }
+
+  .card-container {
+    padding: 20px;
+  }
+
+  .card.cartografia {
+    margin-top: 40%;
+  }
+
+  .card.objetos {
+    margin-top: 10%;
+  }
+
+  .card.cocina {
+    margin-top: 35%;
+  }
+
+  .content-container {
+    padding: 40px 40px 150px 40px;
+  }
+
+  .content-container.content-container-gente {
+    padding-right: 0;
+  }
+
+  .content {
+    margin-bottom: 5vh;
+  }
+
+  .antecedentes .content,
+  .cartografia .content {
+    position: relative;
+    top: 0;
+  } 
+
+  .objetos-container {
+    padding: 10px 10px 0 10px;
+  }
+
+  .objetos .card-container:nth-child(1) {
+    margin-bottom: 0vh;
+  } 
+  
+  .objetos .card-container:nth-child(3) {
+    margin-top: 3vh;
+  }
+
+  .objetos .card-container:nth-child(5) {
+    margin-top: -3vh;
+    margin-bottom: 2vh;
+  }
+
+  .objetos .card-container:nth-child(6) {
+    margin-top: -3vh;
+  }
+
+  .objetos .card-container:nth-child(8) {
+    margin-top: -5vh;
+  }
+
+  .objetos .card-container:nth-child(9) {
+    margin-bottom: 2vh;
+  }
+
+  .objetos .card-container:nth-child(10) {
+    margin-top: -3vh;
+    margin-bottom: 2vh;
+  }
+
+  .objetos .card-container:nth-child(12) {
+    margin-top: 2vh;
+  }
+
+  .objetos .card-container:nth-child(14) {
+    margin-top: -8vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-navigation .menu {
+    bottom: 4vh;
+  }
+
+  .hide-on-small {
+    display: block;
+  }
+
+  .show-on-small {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .hide-on-small {
+    display: none;
+  }
+  .show-on-small {
+    display: block;
+  }
+
+  .blog h1,
+  .single h1 {
+    font-size: 42px;
+    margin: 40px 40px 80px 70px;
+  }
+
+  .sidebar p {
+    display: none;
+  }
+
+  .card-container {
+    padding: 10px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .content-container {
+    margin: 0vh 0 0 auto;
+  }
+
+  .cards {
+    max-width: 80%;
+    margin-top: 0vh;
+  }
+
+  .media-col, .galeria, .slick-carrusel-arrows {
+    max-width: 90%;
+  }
+
+  .subir {
+    margin-right: 0;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .la-gente-galeria .grupo {
+    padding: 20px 20px 50px 20px;
+  }
+
+  .content-container p {
+    font-size: 16px;
+  }
+
+  .content-container.programacion p {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (min-width: 767px) {
+  .site-branding-mobile {
+    display: none
+  }
+
+  .slick-slide .close-group {
+    display: none;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .modal-img-content img {
+      max-width: 90vw;
+  }
+  .show-on-mobile {
+    display: block;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .site-branding, .main-navigation, .sidebar {
+    display: none;
+  }
+
+  .site-branding-mobile {
+    display: flex;
+    height: 60px;
+  }
+
+  .site-branding-mobile .burguer {
+    width: 60px;
+  }
+
+  .burguer img {
+    width: 25px;
+  }
+
+  .site-branding-mobile h1 {
+    margin: 0;
+    padding: 0 0 0 10%;
+    text-align: left;
+    width: 100%;
+    font-size: 5vw;
+  }
+  
+  .site-main {
+    padding-top: 20vh;
+  }
+
+  .card-container {
+    padding: 0;
+  }
+  
+  .card.residencia, .card.cartografia, .card.objetos, .card.cocina {
+    margin-top: 0
+  } 
+
+  .card-container {
+    margin-bottom: 4vh;
+    transform: none;
+  }
+
+  .content-container {
+    width: 100%;
+  }
+
+  .card-content {
+    min-height: 0;
+    padding: 20px 20px 30px 20px;
+  }
+
+  .fixed-circle {
+    transform: translate(0, 0) rotate(0);
+    position: relative;
+    width: 90%;
+    height: 90%;
+    top: auto;
+    left: auto;
+    z-index: 3;
+  }
+
+  .fixed-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+
+  .content-title h2 {
+    font-size: 34px;
+    margin: 0 0 8px 0;
+  }
+
+  .content-title .colectivos {
+    width: 100%;
+  }
+
+  .content-title {
+    margin-bottom: 40px;
+  }
+
+  .content-container {
+  padding: 40px 20px 160px 20px;
+  }
+
+  .content-container p {
+    max-width: 100%;
+  }
+
+  .m-top {
+    margin-top: 80px;
+  }
+
+  .content-link {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  .objetos-container {
+    background-size: 245%;
+    padding: 7% 7% 0 7%;
+  }
+
+  .objetos .card-container:nth-child(-n+14) {
+    margin-bottom: 4vh;
+    margin-top: 0;
+  }
+
+  .circle-container.row {
+    margin-bottom: 8vh;
+  }
+
+  .arrows {
+    display: none;
+  }
+
+  .content-container-gente {
+    padding: 0;
+    margin-top: calc(-20vh + 60px);
+  }
+
+  .la-gente-galeria, .la-gente-galeria .grupo {
+    overflow: visible;
+    height: auto;
+  }
+
+  .la-gente-galeria {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .la-gente-galeria .grupo {
+    padding: 0;
+  }
+
+  .la-gente-galeria .grupo.open .subir-gente {
+    display: block;
+  }
+
+  .subir-gente {
+    display: none;
+    margin-right: 5%;
+  }
+
+  .group-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+    max-width: 90%;
+    margin: 0 auto;
+  } 
+
+  .grupo .group-title {
+    padding: 0;
+    cursor: pointer;
+    height: calc((100vh - 55px) / 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .close-group {
+    right: 5%;
+    top: calc(50% - 15px);
+    cursor: pointer;
+    width: 25px;
+    position: absolute;
+    opacity: 0;
+    transition: all 1.2s ease-out;
+  }
+
+  .la-gente-galeria .grupo.open .close-group {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+
+  .site-info {
+    padding: 15px 10px;
+  }
+
+  .objetos .subir {
+    margin-bottom: 10vh;
+  }
+
+  .subir {
+  margin-bottom: 2vh;
+  }
+
+
+  body {
+    font-size: 14px;
+  }
+
+  .modal-img-close {
+    padding: 25px;
+  }
+
+  .modal-img-close img {
+    width: 25px;
+  }
+
+  .slick-carrusel-arrows img {
+    width: 15px;
+  }
+
+  .galeria, .slick-carrusel-arrows, .media-col {
+    max-width: 100%;
+  }
+  
+  .page-id-297 footer {
+    display: none;
+  }
+
+  .objetos .card-container:nth-child(15) {
+    margin-bottom: 20vh;
+  }
+}
+
+@media (max-width: 550px) {
+  .objetos .card-container:nth-child(15) {
+    margin-bottom: 40vh;
+  }
+
+  .close-group {
+    width: 20px;
+  }
+
+  .site-branding-mobile h1 {
+    font-size: 7vw;
+  }
+
+  .content-title h2 {
+    font-size: 22px;
+  }
+
+  .content-container p {
+    font-size: 14px;
+  }
+
+  .group-title h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-height: 400px) and (orientation: landscape) { 
+  .main-navigation-mobile .menu-item {
+    padding: 5px 0;
+  }
+
+  .group-title p {
+    display: none;
+  }
+}
