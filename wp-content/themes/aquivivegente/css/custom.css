@@ -1186,7 +1186,8 @@ footer.hidden {
 }
 
 /* Modal */
-.open-modal-obj {
+.open-modal-obj,
+.open-modal {
   cursor: pointer;
 }
 
