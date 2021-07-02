@@ -613,7 +613,7 @@ footer {
   align-items: center;
   text-align: center;
   font-size: 14px;
-  color: #777777;
+  color: #757575;
 }
 
 /* SINGLE PAGE */
@@ -1238,6 +1238,7 @@ footer.hidden {
       "truetype"
     );
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
